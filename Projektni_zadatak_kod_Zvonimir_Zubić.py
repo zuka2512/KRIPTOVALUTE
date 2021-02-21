@@ -1,7 +1,6 @@
 from bitcoinrpc.authproxy import AuthServiceProxy
 import matplotlib.pyplot as graph
 import datetime as dt
-import bitcoin
 import matplotlib.animation as animation
 
 def get_server():
