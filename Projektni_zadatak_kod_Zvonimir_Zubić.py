@@ -1,11 +1,8 @@
 from bitcoinrpc.authproxy import AuthServiceProxy
-from datetime import timedelta
 import matplotlib.pyplot as graph
 import datetime as dt
 import bitcoin
-import bitcoinrpc
 import matplotlib.animation as animation
-import time
 
 def get_server():
     host="blockchain.oss.unist.hr"
